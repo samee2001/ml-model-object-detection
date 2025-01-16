@@ -96,7 +96,7 @@ def main():
     print("Model loaded successfully!")
     
     while True:
-        # Read frame from camera
+        # Read camera details
         ret, frame = cap.read()
         if not ret:
             break
